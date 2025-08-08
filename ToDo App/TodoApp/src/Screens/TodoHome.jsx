@@ -140,9 +140,9 @@ function TodoHome() {
     }
   };
 
-return (
+  return (
 
-<div className={styles.appContainer}>
+    <div className={styles.appContainer}>
       <h2 className={styles.heading}>React ToDo App</h2>
       <form className={styles.formArea} >
         <Input
@@ -209,7 +209,7 @@ return (
         </ul>
       )}
     </div>
-);
+  );
 }
 
 export default TodoHome;
